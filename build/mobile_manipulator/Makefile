@@ -198,6 +198,21 @@ roscpp_generate_messages_nodejs/fast:
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
+mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/maary/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
 mobile_manipulator/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
 	cd /home/maary/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_manipulator/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : mobile_manipulator/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
@@ -226,21 +241,6 @@ test_goals: mobile_manipulator/CMakeFiles/test_goals.dir/rule
 test_goals/fast:
 	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/test_goals.dir/build.make mobile_manipulator/CMakeFiles/test_goals.dir/build
 .PHONY : test_goals/fast
-
-# Convenience name for target.
-mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/maary/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
@@ -286,21 +286,6 @@ rosgraph_msgs_generate_messages_eus: mobile_manipulator/CMakeFiles/rosgraph_msgs
 rosgraph_msgs_generate_messages_eus/fast:
 	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/maary/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-.PHONY : mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_nodejs: mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
 mobile_manipulator/CMakeFiles/actionlib_generate_messages_py.dir/rule:
@@ -587,6 +572,63 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
+# Convenience name for target.
+mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
+	cd /home/maary/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+.PHONY : mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_nodejs: mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+.PHONY : actionlib_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_generate_messages_nodejs/fast:
+	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+.PHONY : actionlib_generate_messages_nodejs/fast
+
+# Convenience name for target.
+mobile_manipulator/CMakeFiles/loop_goals.dir/rule:
+	cd /home/maary/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mobile_manipulator/CMakeFiles/loop_goals.dir/rule
+.PHONY : mobile_manipulator/CMakeFiles/loop_goals.dir/rule
+
+# Convenience name for target.
+loop_goals: mobile_manipulator/CMakeFiles/loop_goals.dir/rule
+
+.PHONY : loop_goals
+
+# fast build rule for target.
+loop_goals/fast:
+	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/loop_goals.dir/build.make mobile_manipulator/CMakeFiles/loop_goals.dir/build
+.PHONY : loop_goals/fast
+
+src/loop_goals.o: src/loop_goals.cpp.o
+
+.PHONY : src/loop_goals.o
+
+# target to build an object file
+src/loop_goals.cpp.o:
+	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/loop_goals.dir/build.make mobile_manipulator/CMakeFiles/loop_goals.dir/src/loop_goals.cpp.o
+.PHONY : src/loop_goals.cpp.o
+
+src/loop_goals.i: src/loop_goals.cpp.i
+
+.PHONY : src/loop_goals.i
+
+# target to preprocess a source file
+src/loop_goals.cpp.i:
+	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/loop_goals.dir/build.make mobile_manipulator/CMakeFiles/loop_goals.dir/src/loop_goals.cpp.i
+.PHONY : src/loop_goals.cpp.i
+
+src/loop_goals.s: src/loop_goals.cpp.s
+
+.PHONY : src/loop_goals.s
+
+# target to generate assembly for a file
+src/loop_goals.cpp.s:
+	cd /home/maary/code/catkin_ws/build && $(MAKE) -f mobile_manipulator/CMakeFiles/loop_goals.dir/build.make mobile_manipulator/CMakeFiles/loop_goals.dir/src/loop_goals.cpp.s
+.PHONY : src/loop_goals.cpp.s
+
 src/send_goals.o: src/send_goals.cpp.o
 
 .PHONY : src/send_goals.o
@@ -653,15 +695,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... test"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... test_goals"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... test"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... install/local"
 	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_eus"
@@ -682,6 +723,11 @@ help:
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... loop_goals"
+	@echo "... src/loop_goals.o"
+	@echo "... src/loop_goals.i"
+	@echo "... src/loop_goals.s"
 	@echo "... src/send_goals.o"
 	@echo "... src/send_goals.i"
 	@echo "... src/send_goals.s"

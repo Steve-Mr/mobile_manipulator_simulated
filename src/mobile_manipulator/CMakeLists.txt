@@ -215,3 +215,6 @@ target_link_libraries(send_goals ${catkin_LIBRARIES})
 add_executable(test_goals src/test.cpp)
 target_link_libraries(test_goals ${catkin_LIBRARIES})
 
+add_executable(loop_goals src/loop_goals.cpp)
+target_link_libraries(loop_goals ${catkin_LIBRARIES})
+

@@ -311,6 +311,19 @@ roscpp_generate_messages_nodejs/fast:
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_cpp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -335,19 +348,6 @@ test_goals: cmake_check_build_system
 test_goals/fast:
 	$(MAKE) -f mobile_manipulator/CMakeFiles/test_goals.dir/build.make mobile_manipulator/CMakeFiles/test_goals.dir/build
 .PHONY : test_goals/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_cpp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_py
@@ -387,19 +387,6 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 rosgraph_msgs_generate_messages_eus/fast:
 	$(MAKE) -f mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_generate_messages_nodejs
-
-# Build rule for target.
-actionlib_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_nodejs
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	$(MAKE) -f mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_generate_messages_py
@@ -648,6 +635,32 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 	$(MAKE) -f mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make mobile_manipulator/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
+#=============================================================================
+# Target rules for targets named actionlib_generate_messages_nodejs
+
+# Build rule for target.
+actionlib_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_nodejs
+.PHONY : actionlib_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_generate_messages_nodejs/fast:
+	$(MAKE) -f mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make mobile_manipulator/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+.PHONY : actionlib_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named loop_goals
+
+# Build rule for target.
+loop_goals: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 loop_goals
+.PHONY : loop_goals
+
+# fast build rule for target.
+loop_goals/fast:
+	$(MAKE) -f mobile_manipulator/CMakeFiles/loop_goals.dir/build.make mobile_manipulator/CMakeFiles/loop_goals.dir/build
+.PHONY : loop_goals/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -672,13 +685,12 @@ help:
 	@echo "... gtest"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... test_goals"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_eus"
@@ -698,6 +710,8 @@ help:
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... loop_goals"
 .PHONY : help
 
 
