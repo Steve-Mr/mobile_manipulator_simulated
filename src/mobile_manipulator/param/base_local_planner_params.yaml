@@ -5,5 +5,5 @@ TrajectoryPlannerROS:
   max_vel_x: 0.09
   min_vel_x: -0.09
   
-  xy_goal_tolerance: 0.5
+  xy_goal_tolerance: 2.0
   yaw_goal_tolerance: 3.14159

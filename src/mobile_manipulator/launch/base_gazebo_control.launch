@@ -6,13 +6,13 @@
   
   <!-- Gazebo post office environment-->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="/home/maary/code/catkin_ws/src/mobile_manipulator/worlds/postoffice.world"/>
+    <arg name="world_name" value="$(find mobile_manipulator)/worlds/playground.world"/>
   </include>
   
   <!-- Spawn the robot model -->
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -x 0 -y 0 -z 1 -model robot_base" />
   
-   <!-- Load wheeled base controller and parameters --> 
+  <!-- Load wheeled base controller and parameters --> 
   <rosparam command="load" file="$(find mobile_manipulator_body)/config/joint_state_controller.yaml" />
   <node name="joint_state_controller_spawner" pkg="controller_manager" type="controller_manager" args="spawn joint_state_controller" respawn="false" output="screen"/>
   <rosparam command="load" file="$(find mobile_manipulator_body)/config/control.yaml" />
